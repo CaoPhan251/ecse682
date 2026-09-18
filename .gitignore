@@ -1,0 +1,14 @@
+# Vivado auto-generated project files and directories
+vivado_project/
+*.jou
+*.log
+.Xil/
+*.str
+
+# IP compilation outputs and hardware runs
+*.runs/
+*.srcs/
+*.gen/
+*.ip_user_files/
+*.hw/
+*.sim/
