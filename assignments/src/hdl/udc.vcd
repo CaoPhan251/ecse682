@@ -1,0 +1,244 @@
+$date
+	Thu Sep 24 22:39:37 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_udc $end
+$var wire 1 ! underflow $end
+$var wire 1 " overflow $end
+$var wire 20 # count [19:0] $end
+$var parameter 32 $ CLK_PERIOD $end
+$var parameter 32 % WIDTH $end
+$var reg 1 & clk $end
+$var reg 20 ' data_in [19:0] $end
+$var reg 1 ( en $end
+$var reg 1 ) load $end
+$var reg 1 * rst $end
+$var reg 1 + up_dn $end
+$scope module dut $end
+$var wire 1 & clk $end
+$var wire 20 , data_in [19:0] $end
+$var wire 1 ( en $end
+$var wire 1 ) load $end
+$var wire 1 " overflow $end
+$var wire 1 * rst_n $end
+$var wire 1 ! underflow $end
+$var wire 1 + up_dn $end
+$var parameter 32 - WIDTH $end
+$var reg 20 . count [19:0] $end
+$var reg 1 / ovr_flag $end
+$var reg 1 0 ovr_flag_d $end
+$var reg 1 1 udr_flag $end
+$var reg 1 2 udr_flag_d $end
+$scope begin overflow_flag $end
+$upscope $end
+$scope begin underflow_flag $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10100 -
+b10100 %
+b1010 $
+$end
+#0
+$dumpvars
+02
+01
+00
+0/
+b0 .
+bx ,
+x+
+0*
+0)
+x(
+bx '
+0&
+b0 #
+0"
+0!
+$end
+#5
+1&
+#10
+0&
+1*
+#15
+1&
+#20
+0&
+1+
+1(
+#25
+b1 #
+b1 .
+1&
+#30
+0&
+#35
+b10 #
+b10 .
+1&
+#40
+0&
+#45
+b11 #
+b11 .
+1&
+#50
+0&
+#55
+b100 #
+b100 .
+1&
+#60
+0&
+#65
+b101 #
+b101 .
+1&
+#70
+0&
+0+
+#75
+b100 #
+b100 .
+1&
+#80
+0&
+#85
+b11 #
+b11 .
+1&
+#90
+0&
+#95
+b10 #
+b10 .
+1&
+#100
+0&
+#105
+b1 #
+b1 .
+1&
+#110
+0&
+#115
+11
+b0 #
+b0 .
+1&
+#120
+0&
+#125
+1!
+01
+b11111111111111111111 #
+b11111111111111111111 .
+12
+1&
+#130
+0&
+#135
+0!
+02
+b11111111111111111110 #
+b11111111111111111110 .
+1&
+#140
+11
+b0 #
+b0 .
+0&
+0*
+#145
+1&
+#150
+01
+0&
+1+
+1*
+1)
+b11111111111111111010 '
+b11111111111111111010 ,
+#155
+b11111111111111111010 #
+b11111111111111111010 .
+1&
+#160
+0&
+0)
+#165
+b11111111111111111011 #
+b11111111111111111011 .
+1&
+#170
+0&
+#175
+b11111111111111111100 #
+b11111111111111111100 .
+1&
+#180
+0&
+#185
+b11111111111111111101 #
+b11111111111111111101 .
+1&
+#190
+0&
+#195
+b11111111111111111110 #
+b11111111111111111110 .
+1&
+#200
+0&
+#205
+1/
+b11111111111111111111 #
+b11111111111111111111 .
+1&
+#210
+0&
+#215
+1"
+0/
+b0 #
+b0 .
+10
+1&
+#220
+0&
+#225
+0"
+00
+b1 #
+b1 .
+1&
+#230
+0&
+#235
+b10 #
+b10 .
+1&
+#240
+0&
+#245
+b11 #
+b11 .
+1&
+#250
+0&
+#255
+b100 #
+b100 .
+1&
+#260
+0&
